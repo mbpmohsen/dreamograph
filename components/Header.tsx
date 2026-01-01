@@ -44,19 +44,19 @@ export default function Header() {
                                 active: true,
                             },
                             {
-                                href: '#analyze-dream',
+                                href: '/analyze-dream',
                                 label: 'Analyze Dream',
                             },
                             {
-                                href: '#about',
+                                href: '/about',
                                 label: 'About',
                             },
                             {
-                                href: '#blog',
+                                href: '/blog',
                                 label: 'Blog',
                             },
                             {
-                                href: '#contact',
+                                href: '/contact',
                                 label: 'Contact',
                             },
                         ].map(({ href, label, active }) => (
