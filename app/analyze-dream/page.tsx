@@ -1,20 +1,14 @@
 import CoreFeatures from '@/app/_components/CoreFeatures';
 import DreamographSection from '@/app/_components/DreamographSection';
-import Grounded from '@/app/_components/Grounded';
-import HeroSection from '@/app/_components/HeroSection';
 import JoinSection from '@/app/_components/JoinSection';
 import JournalSection from '@/app/_components/JournalSection';
-import LanguageOfDreams from '@/app/_components/LanguageOfDreams';
-import ReasonSection from '@/app/_components/ReasonSection';
 import TrustedSection from '@/app/_components/TrustedSection';
+import DescribeSection from '@/app/analyze-dream/_components/DescribeSection';
 
 export default function Home() {
     return (
         <>
-            <HeroSection />
-            <ReasonSection />
-            <LanguageOfDreams />
-            <Grounded />
+            <DescribeSection />
             <CoreFeatures />
             <DreamographSection />
             <TrustedSection />
